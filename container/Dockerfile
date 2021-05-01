@@ -8,7 +8,7 @@
 # ARG MISP_GPG_PASSWORD=ChangeThisDefaultPasswordXuJBao5Q2bps89LWFqWkKgDZwAFpNHvc
 ##################################################################
 # ^^^ DO NOT TOUCH HERE - THIS SECTION IS NOT USED - SIMPLY USED AS README ^^^
-FROM ubuntu:18.04
+FROM ubuntu:devel
 MAINTAINER Ventz Petkov <ventz_petkov@harvard.edu>
 
 # Dir you need to override to keep data on reboot/new container:
